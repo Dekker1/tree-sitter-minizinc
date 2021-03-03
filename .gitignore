@@ -2,5 +2,13 @@ node_modules
 build
 *.log
 package-lock.json
+
+# Rust bindings
 Cargo.lock
 /target/
+
+# Python Bindings
+.eggs/
+*.egg-info/
+*.so
+__pycache__/
